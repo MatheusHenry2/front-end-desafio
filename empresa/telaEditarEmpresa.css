@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.primeiro-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.primeiro-header .texto{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.container-itens{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.nome-empresa{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.img-nova-empresa{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+@media (max-width: 689px){
+    .inputs-container .inputs-btn{
+        flex-direction: column;
+    }
+
+    .inputs-container .inputs-btn .input{
+        margin-top: 20px;
+    }
+
+    .section-conteudo .img{
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 550px){
+    .inputs-container .inputs-btn{
+        flex-direction: column;
+    }
+
+    .inputs-container .inputs-btn .input{
+        margin-top: 20px;
+    }
+
+    .inputs-container .inputs-btn{
+        margin-bottom: 10px;
+    }
+
+    .inputs-container .inputs-btn .input{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 485px){
+    .inputs-container{
+        display: block;
+    }
+
+    .inputs-container .inputs-btn{
+        margin-bottom: 10px;
+    }
+
+    .inputs-container .inputs-btn .input{
+        margin-bottom: 10px;
+    }
+}
