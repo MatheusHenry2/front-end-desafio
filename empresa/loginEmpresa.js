@@ -16,6 +16,7 @@ function login() {
             senha_empresa: senhaEmpresa.value
         })
         .then(function(response) {
+            alert(response)
             window.localStorage.setItem('logado', 'true');
             window.localStorage.setItem('userID', response.data.ID);
             window.location.href = "/telaTodosDesafios.html";
