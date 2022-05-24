@@ -39,11 +39,26 @@
     display: flex;
 }
 
+.fa {
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#search {
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#options {
+    border-radius: 8px;
+    padding: 4px;
+}
+
 .inputs-container .inputs-btn .input a {
     color: black;
     border: 1px solid black;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
 }
 
